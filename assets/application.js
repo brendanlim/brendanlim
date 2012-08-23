@@ -25,7 +25,7 @@ function playVideoWithPosition(position) {
 			], 
 		poster: posterFile,
 		endedCallback: function() {
-			nextVideo(globalPosition);
+			// nextVideo(globalPosition);
 		}
 	});
 }
