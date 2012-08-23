@@ -24,6 +24,7 @@ function playVideoWithPosition(position) {
 				[videoFile + '.ogv', 'video/ogg']
 			], 
 		poster: posterFile,
+		loop: true,
 		endedCallback: function() {
 			// nextVideo(globalPosition);
 		}
